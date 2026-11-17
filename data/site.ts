@@ -1,3 +1,5 @@
+import { basePath } from "@/lib/basePath";
+
 export interface SiteConfig {
   name: string;
   role: string;
@@ -26,7 +28,7 @@ export const siteConfig: SiteConfig = {
   location: "Basundhara, Dhaka, Bangladesh",
   email: "sukanto.k.das@gmail.com",
   phone: "+880-1797521254",
-  cvPath: "/SUKANTO_CV.pdf",
+  cvPath: `${basePath}/SUKANTO_CV.pdf`,
   social: {
     github: "https://github.com/sukantokumardas",
     linkedin: "https://linkedin.com/in/sukantokumardas",
